@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.page-title {
+  text-align: center;
+}
+
+.card-container {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  background-color: #fd2dee;
+  border-radius: 15px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card p {
+  margin: 15px;
+}
