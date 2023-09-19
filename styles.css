@@ -44,3 +44,8 @@ body {
 .card p {
   margin: 15px;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
